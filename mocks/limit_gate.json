@@ -1,0 +1,17 @@
+[
+  {
+    "237695": {
+      "limitServiceEnabled": true,
+      "representativeAbsId": 1505512,
+      "representativePhone": "89142383220",
+      "signedOn": "2025-09-16T03:51:04.555Z",
+      "contractNumber": "1337-2/28",
+      "representativeName": "Солдатова Яна Ивановна"
+    }
+  },
+  {
+    "12345": {
+      "limitServiceEnabled": false
+    }
+  }
+]
