@@ -57,7 +57,7 @@ def checks(app: Application) -> bool:
     if (
             app.product not in available_products
             or app.amount < min_amount
-            or (app.product in (580, 581, 582) and app.hasInsurance)
+            or (app.product in (580, 581, 582) and not app.hasInsurance)
             or app.hasAdditionalClient
             or (app.product in (401, 402, 404, 624, 640) and not app.isIncludingAmountForNeeds)
             or app.hasCollateral

@@ -4,6 +4,7 @@ import psycopg2
 import pytest
 import requests
 import urllib3
+from datetime import datetime
 from psycopg2.extras import RealDictCursor
 
 from core.config import settings
